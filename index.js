@@ -92,7 +92,8 @@ app.get("/login", (req, res) => {
 });
 // Verify section
 app.get("/verify", (req, res) => {
-    res.render("verify")
+    const email = req.session.email;
+        res.render("verify", { email});  
 });
 
 // SupportTeam section
