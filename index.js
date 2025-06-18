@@ -90,7 +90,8 @@ app.get("/contact", (req, res) => {
 app.get("/login", (req, res) => {
     res.render("login")
 });
-app.get("verify", (req, res) => {
+// Verify section
+app.get("/verify", (req, res) => {
     res.render("verify")
 });
 
