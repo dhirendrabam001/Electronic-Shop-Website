@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <title>Login Section</title>
+</head>
+
+<body>
+
+    <!-- Topbar Section Start -->
+    <section class="topbar-main p-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-auto col-lg-auto col-12">
+                    <img src="/img/logoo.png" alt="Shop" width="80px" height="70px">
+                </div>
+                <div class="col-md-auto col-lg-auto topbar-content text-white col-12">
+                    <i class="fas fa-map-marker-alt me-1"></i> Dipayal Bazzar Doti, Nepal
+                    <i class="fas fa-envelope ms-3 me-1"></i> mobilenabin123@gmail.com
+                    <i class="fas fa-phone-alt ms-3 me-1"></i> 9848431087
+                    <i class="fa-solid fa-clock-rotate-left me-1 ms-3"></i> Mon - Sat 8:00 - 17:30
+                </div>
+                <div
+                    class="col-md-auto col-lg-auto social-media d-flex align-items-center gap-3 ms-5 text-decoration-none col-12">
+                    <a href="https://www.facebook.com/sher.chand.357161"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/dhirendrabam001/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dhirendrabam001"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Topbar Section end -->
+
+    <section class="main d-flex align-items-center justify-content-center">
+        <div class="container1">
+            <div class="form-box register">
+                <form action="/registerMain" method="post">
+                    <h1>Registration</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" name="username" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Email" name="email" required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" name="password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <p>or sign up with social media platforms</p>
+                    <div class="social-media-2 d-flex align-items-center gap-4 justify-content-center">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-apple"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box login">
+                <form action="/login" method="post">
+                    <h1>Login</h1>
+                    <div class="input-box">
+                        <input type="email" placeholder="Email" name="email" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" name="password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="mb-4 d-flex justify-content-between  form-infoo">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remender Me</label>
+                        </div>
+                        <div class="forget-pass">
+                            <a href="#">Forget Password?</a>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <p>or login with social media platforms</p>
+                    <div class="social-media-2 d-flex align-items-center gap-4 justify-content-center">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-apple"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="toggle-box">
+                <div class="toggle-panel toggle-left">
+                    <h2>Hello Everyone!</h2>
+                    <p class="mt-2">Don't have an account?</p>
+                    <button type="button" class="btn register-btn" id="register">Register</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h2>Welcome Back!</h2>
+                    <p class="mt-2">Already have an account?</p>
+                    <button type="button" class="btn login-btn" id="login">Login</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- 
+    Footer Section start -->
+
+    <section class="footer-main py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <img src="/img/logoo.png" width="150px" height="150px" alt="logo">
+                    <p>At Nabin Mobile Gallery. We specialize in providing top-notch mobile sales repair services, and
+                        accessories all under one roof.</p>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Shop Info</h4>
+                    <ul>
+                        <li>Adress: Dipayal Pipalla Bazzar <br>Doti</li>
+                        <hr>
+                        <li>Phone: +9779848431087</li>
+                        <li>Email: <span class="text-warning">mobilenabin123@gmail.com</span></li>
+                        <hr>
+                        <li>Hours: Sun - Fri (8AM - 8PM)</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Services</h4>
+                    <div class="footer-servic d-flex align-items-center">
+                        <ul>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Laptop Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Iphone Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Ipad Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Tablet Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Smartphone Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Device Unlocking
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Recovery Data
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Newsletter</h4>
+                    <p>Signup for regular newsletter and stay upto date with our latest news</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter Your Email...." aria-describedby="emailHelp">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fa fa-chevron-right"></i>
+                            </button>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section end -->
+
+    <!-- Button section start -->
+    <section class="button-main py-4">
+        <div class="container">
+            <div class="text-center text-white mb-2">
+                <p>Copyright © 2023. All right reserved by <span class="text-warning">Dhirendra</span> Bam</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button section end -->
+
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
+        integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

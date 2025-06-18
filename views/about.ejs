@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <title>About Section</title>
+</head>
+<body>
+        <!-- Topbar Section Start -->
+    <section class="topbar-main p-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-auto col-lg-auto col-12">
+                    <img src="/img/logoo.png" alt="Shop" width="80px" height="70px">
+                </div>
+                <div class="col-md-auto col-lg-auto topbar-content text-white col-12">
+                    <i class="fas fa-map-marker-alt me-1"></i> Dipayal Bazzar Doti, Nepal
+                    <i class="fas fa-envelope ms-3 me-1"></i> mobilenabin123@gmail.com
+                    <i class="fas fa-phone-alt ms-3 me-1"></i> 9848431087
+                    <i class="fa-solid fa-clock-rotate-left me-1 ms-3"></i> Mon - Sat 8:00 - 17:30
+                </div>
+                <div
+                    class="col-md-auto col-lg-auto social-media d-flex align-items-center gap-3 ms-5 text-decoration-none col-12">
+                    <a href="https://www.facebook.com/sher.chand.357161"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/dhirendrabam001/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dhirendrabam001"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Topbar Section end -->
+    
+    <!-- Navbar section start -->
+
+    <nav class="navbar navbar-expand-lg text-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/about">About Us</a></li>
+                            <li><a class="dropdown-item" href="/services">Serives</a></li>
+                            <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+                            <li><a class="dropdown-item" href="/error">404 Error</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact Us</a>
+                    </li>
+                    <div class="navbar-btn">
+                        <a href="/login" class="btn btn-outline-primary text-white text-decoration-none" type="submit">Login</a>
+                    </div>
+                </ul>
+                <div class="navbar-btn-2 me-4">
+                    <button class="btn btn-outline-success" type="submit" data-bs-toggle="modal"
+                        data-bs-target="#getintotouch">GET INTO TOUCH</button>
+                </div>
+
+                <!-- Get Into Touch Modal -->
+                <div class="modal fade" id="getintotouch" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="titles" id="exampleModalLabel">Support Team</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="/supportteam" method="post">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="username" name="username"
+                                            placeholder="Username" aria-describedby="uernamehelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Enter Your Email" aria-describedby="emailhelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="subject" name="subject"
+                                            placeholder="Subject" aria-describedby="subjecthelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="yourname" name="yourname"
+                                            placeholder="Your Name" aria-describedby="yournamehelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="number" class="form-control" id="yournumber" name="yournumber"
+                                            placeholder="Your Number" aria-describedby="yournumberhelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="Leave A Comment Here..." rows="5"></textarea>
+                                    </div>
+                                    <div class="support-btn">
+                                        <button type="submit" class="btn btn-outline-primary w-100">Send</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar section end -->
+
+    <!-- Home section start -->
+     <section class="home-main-1">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fw-bold text-uppercase fs-3 text-white">About Us</h2>
+            </div>
+            <div class="text-center">
+                <h3 class="fs-6 text-white mt-2">HOME/ ABOUT</h3>
+            </div>
+
+        </div>
+     </section>
+
+    <!-- Home section end -->
+
+    <!-- About restore start -->
+     <section class="about-restore py-4">
+        <div class="container">
+            <div class="text-center mb-2">
+                <h2 class="fw-bold fs-1">About Restore</h2>
+                <p class="text-secondary">At our mobile electronics shop, we offer expert restore services to bring your damaged or outdated devices back to life.<br>Whether it’s a cracked screen, battery issues, software malfunctions, or water damage, our skilled technicians<br>Use high-quality parts and advanced tools to restore your smartphone, tablet, or gadget to optimal performance.</p>
+            </div>
+            <div class="restore-img text-center">
+                <img src="/img/home_1_slider_2.webp" class="img-fluid" alt="home-img">
+            </div>
+            <div class="row justify-content-center align-items-center g-5">
+                <div class="col-12 col-md-6 restore-content">
+                    <div class="restore-info">
+                        <h2 class="text-uppercase text-end fs-5 fs-bold">Who we are</h2>
+                        <p class="text-end text-secondary">We are a dedicated team of mobile electronics experts committed to providing reliable repair, restoration, and support services for all your devices. With a passion for technology and years of hands-on experience, we specialize in servicing smartphones, tablets, and other electronic gadgets from all major brands. Our mission is to deliver fast, affordable, and high-quality solutions that keep you connected and your devices performing at their best.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 restore-content">
+                    <div class="restore-info">
+                        <h2 class="text-uppercase fs-5 fs-bold">Why choose us</h2>
+                        <p class="text-secondary">At our mobile electronics shop, customer satisfaction is our top priority. We combine technical expertise with quality workmanship to deliver trusted repair and restore services at competitive prices. Our team uses only genuine or high-grade replacement parts, ensuring durability and performance. With transparent pricing, fast turnaround times, and a friendly support team, we make the repair process smooth and stress-free.Whether you're visiting us for a quick fix or a complex restoration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- About restore end -->
+
+        <!-- Team Section start -->
+    <section class="team-main py-4">
+        <div class="container">
+            <div class="text-center my-2">
+                <h2 class="fw-bold fs-1">Our Awesome Team</h2>
+                <p>Friendly, knowledgeable, and passionate — our team is here to help you find the perfect mobile phone
+                    and accessories.<br>We’re dedicated to great service and the latest tech, making your shopping
+                    experience easy and enjoyable.</p>
+            </div>
+            <div class="row justify-content-center align-items-center g-5 mt-1">
+                <div class="col-12 col-md-4 team-info">
+                    <div class="card shadow">
+                        <img src="/img/about-2.jpg" class="card-img-top" alt="client-1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-1">Sher Chand</h5>
+                            <p class="card-text-1">Founder/Owner</p>
+                        </div>
+                        <div class="card-footer d-flex align-items-center gap-2 bg-white justify-content-center">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- team-2 -->
+                <div class="col-12 col-md-4 team-info">
+                    <div class="card shadow">
+                        <img src="/img/copy.png" class="card-img-top" height="434px" alt="client-2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-1">Dhirendra Bam</h5>
+                            <p class="card-text-1">Software Engineer</p>
+                        </div>
+                        <div class="card-footer d-flex align-items-center gap-2 bg-white justify-content-center">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- team-3 -->
+                <div class="col-12 col-md-4 team-info">
+                    <div class="card shadow">
+                        <img src="/img/team-3.jpg" class="card-img-top" height="434px" alt="client-3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-1">Puja Chand</h5>
+                            <p class="card-text-1">Customer Support</p>
+                        </div>
+                        <div class="card-footer d-flex align-items-center gap-2 bg-white justify-content-center">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section end-->
+
+        <!-- Our Process section start-->
+    <section class="process-main py-4">
+        <div class="container">
+            <div class="text-center mb-2">
+                <h2 class="text-white fw-bold fs-1">Our Process</h2>
+                <p>Easy and effective way to get your device repaired.</p>
+            </div>
+            <div class="row align-items-center justify-content-center g-4 mt-3">
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>1</h2>
+                        <h4>DAMAGE<br>DEVICE</h4>
+                    </div>
+                    <p>Just relaxed when your device is need to be fixed and no panic.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>2</h2>
+                        <h4>SEND THEM<br>TO US</h4>
+                    </div>
+                    <p>Send the device to us which you need to be fixed and stay relaxed.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>3</h2>
+                        <h4>FAST FIX</h4>
+                    </div>
+                    <p>We will take care of it and work with it to fix it accurately.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>4</h2>
+                        <h4>QUICK RETURN</h4>
+                    </div>
+                    <p>After a quick fix, we just return to it you fast and securely.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Process section end -->
+
+        <!-- Brand section start -->
+    <section class="brand-main py-4">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fw-bold fs-1">Brand We Work With</h2>
+                <p>At Nabin Mobile Gallery, we proudly collaborate with some of the most trusted and recognized mobile
+                    and tech brands in the industry. From leading smartphone manufacturers like Samsung, Apple, Xiaomi,
+                    Vivo, Oppo, and Realme to accessory brands like Boat, JBL.</p>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center align-items-center g-5 row-info">
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/OPPO_LOGO_2019.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/IQOO_logo.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/Vivo_logo_2019.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/Samsung_Logo.svg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center g-5 row-info-2">
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/Motorola_new_logo.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/IQOO_logo.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/Itel-mobile-logo-vector.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/Realme_logo.svg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand section end -->
+
+        <!-- Footer Section start -->
+    <section class="footer-main py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <img src="/img/logoo.png" width="150px" height="150px" alt="logo">
+                    <p>At Nabin Mobile Gallery. We specialize in providing top-notch mobile sales repair services, and
+                        accessories all under one roof.</p>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Shop Info</h4>
+                    <ul>
+                        <li>Adress: Dipayal Pipalla Bazzar <br>Doti</li>
+                        <hr>
+                        <li>Phone: +9779848431087</li>
+                        <li>Email: <span class="text-warning">mobilenabin123@gmail.com</span></li>
+                        <hr>
+                        <li>Hours: Sun - Fri (8AM - 8PM)</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Services</h4>
+                    <div class="footer-servic d-flex align-items-center">
+                        <ul>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Laptop Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Iphone Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Ipad Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Tablet Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Smartphone Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Device Unlocking
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Recovery Data
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Newsletter</h4>
+                    <p>Signup for regular newsletter and stay upto date with our latest news</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter Your Email...." aria-describedby="emailHelp">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fa fa-chevron-right"></i>
+                            </button>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section end -->
+
+    <!-- Button section start -->
+    <section class="button-main py-4">
+        <div class="container">
+            <div class="text-center text-white mb-2">
+                <p>Copyright © 2023. All right reserved by <span class="text-warning">Dhirendra</span> Bam</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button section end -->
+
+
+
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
+        integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

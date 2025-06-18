@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <title>Mobile And Electronic Shop</title>
+</head>
+
+<body>
+
+    <!-- Topbar Section Start -->
+    <section class="topbar-main p-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-auto col-lg-auto col-12">
+                    <img src="/img/logoo.png" alt="Shop" width="80px" height="70px">
+                </div>
+                <div class="col-md-auto col-lg-auto topbar-content text-white col-12">
+                    <i class="fas fa-map-marker-alt me-1"></i> Dipayal Bazzar Doti, Nepal
+                    <i class="fas fa-envelope ms-3 me-1"></i> mobilenabin123@gmail.com
+                    <i class="fas fa-phone-alt ms-3 me-1"></i> 9848431087
+                    <i class="fa-solid fa-clock-rotate-left me-1 ms-3"></i> Mon - Sat 8:00 - 17:30
+                </div>
+                <div
+                    class="col-md-auto col-lg-auto social-media d-flex align-items-center gap-3 ms-5 text-decoration-none col-12">
+                    <a href="https://www.facebook.com/sher.chand.357161"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/dhirendrabam001/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dhirendrabam001"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Topbar Section end -->
+
+    <!-- Navbar section start -->
+
+    <nav class="navbar navbar-expand-lg text-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/about">About Us</a></li>
+                            <li><a class="dropdown-item" href="/services">Serives</a></li>
+                            <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+                            <li><a class="dropdown-item" href="/error">404 Error</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact Us</a>
+                    </li>
+                    <div class="navbar-btn">
+                        <a href="/login" class="btn btn-outline-primary text-white text-decoration-none" type="submit">Login</a>
+                    </div>
+                </ul>
+                <div class="navbar-btn-2 me-4">
+                    <button class="btn btn-outline-success" type="submit" data-bs-toggle="modal"
+                        data-bs-target="#getintotouch">GET INTO TOUCH</button>
+                </div>
+
+                <!-- Get Into Touch Modal -->
+                <div class="modal fade" id="getintotouch" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="titles" id="exampleModalLabel">Support Team</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="/supportteam" method="post">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="username" name="username"
+                                            placeholder="Username" aria-describedby="uernamehelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Enter Your Email" aria-describedby="emailhelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="subject" name="subject"
+                                            placeholder="Subject" aria-describedby="subjecthelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="yourname" name="yourname"
+                                            placeholder="Your Name" aria-describedby="yournamehelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="number" class="form-control" id="yournumber" name="yournumber"
+                                            placeholder="Your Number" aria-describedby="yournumberhelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="Leave A Comment Here..." rows="5"></textarea>
+                                    </div>
+                                    <div class="support-btn">
+                                        <button type="submit" class="btn btn-outline-primary w-100">Send</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar section end -->
+
+    <!-- Home section start -->
+    <section class="home-main">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="/img/home_1_slider_2.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h2 class="sr-title">Shree Nabin Mobile And<br>Electronics <span
+                                class="text-danger">Suppliers</span></h2>
+                        <h4 class="sr-title-2">Mobile Repairining And Sales</h4>
+                        <p class="sr-text">Nabin Mobile and Electronic Suppliers offers quality mobile repair services
+                            and the latest
+                            phones and accessories at affordable prices. Trusted service, guaranteed satisfaction.</p>
+                        <div class="home-btn d-flex gap-4 mt-4 align-items-center text-center justify-content-center">
+                            <a href="#" class="home-btn-1 sr-btn">GET STARTED NOW</a>
+                            <a href="#" class="home-btn-2 sr-btn">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/img/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h2 class="sr-title">Shree Nabin Mobile And<br>Electronics <span
+                                class="text-danger">Suppliers</span></h2>
+                        <h4 class="sr-title-2">Mobile Repairining And Sales</h4>
+                        <p class="sr-text">Nabin Mobile and Electronic Suppliers offers quality mobile repair services
+                            and the latest
+                            phones and accessories at affordable prices. Trusted service, guaranteed satisfaction.</p>
+                        <div class="home-btn d-flex gap-4 mt-4 align-items-center text-center justify-content-center">
+                            <a href="#" class="home-btn-1 sr-btn">GET STARTED NOW</a>
+                            <a href="#" class="home-btn-2 sr-btn">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/img/5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h2 class="sr-title">Shree Nabin Mobile And<br>Electronics <span
+                                class="text-danger">Suppliers</span></h2>
+                        <h4 class="sr-title-2">Mobile Repairining And Sales</h4>
+                        <p class="sr-text">Nabin Mobile and Electronic Suppliers offers quality mobile repair services
+                            and the latest
+                            phones and accessories at affordable prices. Trusted service, guaranteed satisfaction.</p>
+                        <div class="home-btn d-flex gap-4 mt-4 align-items-center text-center justify-content-center">
+                            <a href="#" class="home-btn-1 sr-btn">GET STARTED NOW</a>
+                            <a href="#" class="home-btn-2 sr-btn">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Home section end -->
+
+    <!-- About Section Start -->
+    <section class="about-main py-4">
+        <div class="container">
+            <div class="row justify-content-center align-items-center g-4">
+                <div class="col-12 col-md-6">
+                    <div class="about-left">
+                        <img src="/img/about-bg.png" alt="about-img" class="img-fluid">
+                        <div class="about-left-content animate-badge">
+                            <i class="fa-solid fa-rocket"></i> Trusted by 10k Clients
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="about-right">
+                        <h5 class="mb-2">About Our Shop</h5>
+                        <div class="about-content">
+                            <h3 class="mt-2 text-uppercase fw-bold"><span class="">12</span> Years Experience in mobile
+                                reapir and sale services</h3>
+                            <p>With over 8 years of hands-on experience in mobile repair and sales services, I have
+                                developed deep expertise in diagnosing and resolving a wide range of hardware and
+                                software issues across various smartphone brands. My experience includes screen
+                                replacements, battery upgrades, software troubleshooting, and unlocking services, as
+                                well as offering expert advice to customers on choosing the right devices and
+                                accessories.</p>
+                            <div class="btn-about d-flex align-items-center gap-3">
+                                <div class="btn-join mt-2">
+                                    <a href="tel:9848431087" class="fw-bold">Join Us →</a>
+                                </div>
+                                <div class="details">
+                                    <img src="/img/about-2.jpg" width="90px" height="80px">
+                                    <h3>Sher Chand</h3>
+                                    <p>Founder/Owner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section end -->
+
+    <!-- Service section start -->
+
+    <section class="services-main py-4">
+        <div class="container">
+            <div class="text-center mb-2">
+                <h2 class="text-white fw-bold">Our Repair Services</h2>
+                <p class="my-2">"We offer fast, reliable, and affordable repair services for all your devices<br>From
+                    phones to laptops, our experts ensure top-quality fixes to get you back on track quickly."</p>
+            </div>
+            <div class="row align-items-center justify-content-center g-5 mt-2">
+                <div class="col-12 col-md-3">
+                    <div class="card p-2 shadow">
+                        <i class="fa-solid fa-computer"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Repair</h5>
+                            <p class="card-text">We fix all types of computer issues including slow performance,
+                                software errors, hardware failures, and virus removal to keep your system running
+                                smoothly.</p>
+                            <a href="#" class="btn">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card p-2 shadow">
+                        <i class="fa-solid fa-mobile-button"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Repair</h5>
+                            <p class="card-text">We provide fast and reliable mobile repair services, including screen
+                                replacement, battery issues, and software fixes for all major smartphone brands.</p>
+                            <a href="#" class="btn">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card p-2 shadow">
+                        <i class="fa-solid fa-laptop"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Laptop Repair</h5>
+                            <p class="card-text">We specialize in repairing all types of laptop issues, from slow
+                                performance, and software crashes. Whether it's a hardware malfunction or a system
+                                problem.</p>
+                            <a href="#" class="btn">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card p-2 shadow">
+                        <i class="fa-solid fa-unlock-keyhole"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Unlocking Devices</h5>
+                            <p class="card-text">Our unlocking service allows you to use your selling your phone,
+                                permanent unlock without affecting your data or warranty.</p>
+                            <a href="#" class="btn">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section end -->
+
+    <!-- Our Process section start-->
+    <section class="process-main py-4">
+        <div class="container">
+            <div class="text-center mb-2">
+                <h2 class="text-white fw-bold fs-1">Our Process</h2>
+                <p>Easy and effective way to get your device repaired.</p>
+            </div>
+            <div class="row align-items-center justify-content-center g-4 mt-3">
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>1</h2>
+                        <h4>DAMAGE<br>DEVICE</h4>
+                    </div>
+                    <p>Just relaxed when your device is need to be fixed and no panic.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>2</h2>
+                        <h4>SEND THEM<br>TO US</h4>
+                    </div>
+                    <p>Send the device to us which you need to be fixed and stay relaxed.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>3</h2>
+                        <h4>FAST FIX</h4>
+                    </div>
+                    <p>We will take care of it and work with it to fix it accurately.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="process-content d-flex align-items-center gap-3">
+                        <h2>4</h2>
+                        <h4>QUICK RETURN</h4>
+                    </div>
+                    <p>After a quick fix, we just return to it you fast and securely.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Process section end -->
+
+    <!-- Suggestion section start -->
+    <section class="suggest-main py-4">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="suggest-info image-box" data-sr="left">
+                        <img src="/img/about-bg.png" alt="suggest" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                        <div class=" mb-2">
+                            <h2 class="fw-bold">Request Free Quote</h2>
+                            <p>Send your query using the form and we will get back to you.</p>
+                        </div>
+                        <form action="/requestForm" method="post">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name"
+                                    aria-describedby="nameHelp">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Email" name="email"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" id="number" name="number" placeholder="Number"
+                                    aria-describedby="numberHelp">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" name="messages"
+                                    id="floatingTextarea2" style="height: 150px"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Suggestion section end -->
+
+    <!-- Our Repair Plan Start -->
+    <section class="repair-main py-4">
+        <div class="container">
+            <div class="text-center my-2">
+                <h2 class="fw-bold fs-1">Our Repair Plan</h2>
+                <p>We offer fast affordable and guaranteed repair services for your devices.</p>
+            </div>
+            <div class="row justify-content-between align-items-center g-4 mt-3">
+                <div class="col-12 col-md-4 plan-info">
+                    <div class="card text-center p-3">
+                        <i class="fas fa-wrench me-3"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">BASIC</h5>
+                            <span class="fw-bold fs-3 text-danger">$30/Mo</span>
+                            <ul class="">
+                                <i class="fa-solid fa-circle-check fs-6"></i> Screen Guard Replacement<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Battery Replacement<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Software Optimization<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Charging Port Cleaning<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Touch Replacement<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Fixing Diagnoses Problem
+                            </ul>
+                            <!-- Trigger Button -->
+                            <button class="btn btn-primary mt-2" type="submit" data-bs-toggle="modal"
+                                data-bs-target="#OrderInfo">
+                                Book Now
+                            </button>
+
+                            <!-- Modal -->
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 plan-info">
+                    <div class="card text-center p-3 shadow bg-success">
+                        <i class="fas fa-tools me-3 text-white"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">STANDARD</h5>
+                            <span class="fw-bold fs-3 text-white">$50/Mo</span>
+                            <ul class="text-white">
+                                <i class="fa-solid fa-circle-check fs-6 text-white"></i> All Basic Features Included<br>
+                                <i class="fa-solid fa-circle-check fs-6 text-white"></i> Speaker Cleaning<br>
+                                <i class="fa-solid fa-circle-check fs-6 text-white"></i> Camera Lens Polishing<br>
+                                <i class="fa-solid fa-circle-check fs-6 text-white"></i> Internal Dust Cleaning<br>
+                                <i class="fa-solid fa-circle-check fs-6 text-white"></i> Free Error (No Service
+                                Charge)<br>
+                                <i class="fa-solid fa-circle-check fs-6 text-white"></i> Priority Service (Next Day)
+                            </ul>
+                            <!-- Trigger Button -->
+                            <button class="btn btn-primary mt-2" type="submit" data-bs-toggle="modal"
+                                data-bs-target="#OrderInfo">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 plan-info">
+                    <div class="card text-center p-3">
+                        <i class="fas fa-crown me-3"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">PREMIUM</h5>
+                            <span class="fw-bold fs-3 text-danger">$100/Mo</span>
+                            <ul class="">
+                                <i class="fa-solid fa-circle-check fs-6"></i> All Standard Features Included<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Monthly Maintenance Check<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Free Premium Accessories (e.g., Case,
+                                Cable)<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> 24/7 Customer Support<br>
+                                <i class="fa-solid fa-circle-check fs-6"></i> Extended Warranty Support
+                            </ul>
+                            <!-- Trigger Button -->
+                            <button class="btn btn-primary mt-2" type="submit" data-bs-toggle="modal"
+                                data-bs-target="#OrderInfo">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Our Repair Plan end  -->
+
+    <!-- Team Section start -->
+    <section class="team-main py-4">
+        <div class="container">
+            <div class="text-center my-2">
+                <h2 class="fw-bold fs-1">Our Awesome Team</h2>
+                <p>Friendly, knowledgeable, and passionate — our team is here to help you find the perfect mobile phone
+                    and accessories.<br>We’re dedicated to great service and the latest tech, making your shopping
+                    experience easy and enjoyable.</p>
+            </div>
+            <div class="row justify-content-center align-items-center g-5 mt-1">
+                <div class="col-12 col-md-4 team-info">
+                    <div class="card shadow">
+                        <img src="/img/about-2.jpg" class="card-img-top" alt="client-1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-1">Sher Chand</h5>
+                            <p class="card-text-1">Founder/Owner</p>
+                        </div>
+                        <div class="card-footer d-flex align-items-center gap-2 bg-white justify-content-center">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- team-2 -->
+                <div class="col-12 col-md-4 team-info">
+                    <div class="card shadow">
+                        <img src="/img/copy.png" class="card-img-top" height="434px" alt="client-2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-1">Dhirendra Bam</h5>
+                            <p class="card-text-1">Software Engineer</p>
+                        </div>
+                        <div class="card-footer d-flex align-items-center gap-2 bg-white justify-content-center">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- team-3 -->
+                <div class="col-12 col-md-4 team-info">
+                    <div class="card shadow">
+                        <img src="/img/team-3.jpg" class="card-img-top" height="434px" alt="client-3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-1">Puja Chand</h5>
+                            <p class="card-text-1">Customer Support</p>
+                        </div>
+                        <div class="card-footer d-flex align-items-center gap-2 bg-white justify-content-center">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section end-->
+
+    <!-- Counter section start -->
+    <section class="counter-main py-4">
+        <div class="container">
+            <div class="text-center my-2">
+                <h2 class="fw-bold fs-1 text-white">Our Statistics Clients</h2>
+                <p>With thousands of happy customers, hundreds of top-brand products, and years of trusted service, our
+                    numbers speak for themselves.<br>From fast sales to expert support, we’re proud to be a growing
+                    shree nabin mobile and multi suppliers.</p>
+            </div>
+            <div class="row counter-start justify-content-center align-items-center g-5 mt-5">
+                <div class="col-12 col-md-3">
+                    <div class="counter-info">
+                        <h2 class="counter" data-target="1000"><span class="count">0</span>+</h2>
+                        <h3>Current <span>Fixings</span></h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="counter-info">
+                        <h2 class="counter" data-target="50000"><span class="count">0</span>+</h2>
+                        <h3>Happy <span>Clients</span></h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="counter-info">
+                        <h2 class="counter" data-target="12"><span class="count">0</span>+</h2>
+                        <h3>Years <span>Experience</span></h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="counter-info">
+                        <h2 class="counter" data-target="22000"><span class="count">0</span>+</h2>
+                        <h3>Devices <span>Fixing</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter section end -->
+
+    <!-- Testimonials section start -->
+    <section class="testimonials-main py-4">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fw-bold fs-1">What Our Customers Say</h2>
+                <p class="text-secondary">Real experiences from our happy customers.</p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- side-1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-5 justify-content-center align-items-center mt-1">
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-4.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Mr. Hitesh Singh</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Businessman</h5>
+                                        <p>"Excellent customer support and super fast delivery! I ordered a new phone
+                                            and received it the very next day with proper packaging. The staff even
+                                            followed up to ensure everything was working fine. Really impressive
+                                            service."</p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- client-2 -->
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-2.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Mr. Prince Bam</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Student</h5>
+                                        <p>"I visited the shop for a screen replacement, and I was amazed by the quick
+                                            turnaround and the professionalism of the staff. Not only was my phone fixed
+                                            in under an hour, but the price was also very reasonable."</p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- client-3 -->
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-3.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Miss. Kabita Sharma</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Engineer</h5>
+                                        <p>"I’ve purchased two phones from here now, and both times the experience was
+                                            great. The team helped me compare different models, and their advice was
+                                            honest and helpful. The quality, pricing, and support are just unbeatable."
+                                        </p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-2 -->
+                    <div class="carousel-item">
+                        <div class="row g-5 justify-content-center align-items-center mt-1">
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-5.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Mr. Lakhvinder Singh</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Developers</h5>
+                                        <p>"Amazing after-sales service! A few days after buying my phone, I noticed a
+                                            minor issue with the speaker.They asked me to visit right away. This kind of
+                                            honest and quick support is rare these days. I felt truly valued as a
+                                            customer."</p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- client-2 -->
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-2.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Mr. Prince Bam</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Student</h5>
+                                        <p>"I visited the shop for a screen replacement, and I was amazed by the quick
+                                            turnaround and the professionalism of the staff. Not only was my phone fixed
+                                            in under an hour, but the price was also very reasonable."</p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- client-3 -->
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-6.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Miss. Divya Kapoor</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Teachers</h5>
+                                        <p>"Great experience from start to finish. The shop is clean, organized, and the
+                                            staff is extremely friendly. I got my phone battery replaced, and not only
+                                            was the work done quickly, but they also checked other components for free."
+                                        </p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-3 -->
+                    <div class="carousel-item">
+                        <div class="row g-5 justify-content-center align-items-center mt-1">
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-5.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Mr. Lakhvinder Singh</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Developers</h5>
+                                        <p>"Amazing after-sales service! A few days after buying my phone, I noticed a
+                                            minor issue with the speaker.They asked me to visit right away. This kind of
+                                            honest and quick support is rare these days. I felt truly valued as a
+                                            customer."</p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- client-2 -->
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-1.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Mr. Prince Bam</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Customers</h5>
+                                        <p> "One of the best mobile shops in town, hands down! I was confused about
+                                            which phone to buy, but the staff patiently explained the pros and cons of
+                                            different models without pushing me toward the most expensive one."</p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- client-3 -->
+                            <div class="col-md-4 col-12">
+                                <div class="testimonial-content text-center p-3 shadow">
+                                    <img src="/img/1-6.webp" alt="testimonal-1" class="gradient-border">
+                                    <div class="testimonal-info-2">
+                                        <h4 class="fs-5 fw-bold text-white mt-3">Miss. Divya Kapoor</h4>
+                                        <h5 class="mb-0 text-decoration-none fs-6">Teachers</h5>
+                                        <p>"Great experience from start to finish. The shop is clean, organized, and the
+                                            staff is extremely friendly. I got my phone battery replaced, and not only
+                                            was the work done quickly, but they also checked other components for free."
+                                        </p>
+                                    </div>
+                                    <div class="rating-info">
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-warning">★</span>
+                                        <span class="text-decoration-none fs-5 text-white">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials section end -->
+
+    <!-- Country network start-->
+    <section class="global-main py-4">
+        <div class="text-center mt-5 mb-5">
+            <h2 class="text-white fw-bold fs-1 my-3">A Country Network of Nabin Mobile Gallery</h2>
+            <p>Nabin Mobile Gallery has established a strong and trusted presence across the country through its wide
+                network of branches and authorized dealers.<br>With a commitment to providing high-quality mobile
+                phones, accessories, and excellent customer service, Nabin Mobile Gallery has expanded its reach to both
+                urban and rural area.</p>
+        </div>
+        <div class="map-section d-flex justify-content-center align-items-center">
+            <!-- Labels -->
+            <div class="label center-node">
+                <div class="center-header">
+                    <i class="fa-solid fa-globe me-2"></i>
+                    <span>Cloud Workload Protection</span>
+                    <a href="#">View All →</a>
+                </div>
+                <div class="start mt-3">
+                    <span>15<img src="https://html.onertheme.com/secur/assets/img/icon/growth-arrow.svg"
+                            class="ms-2"></span>
+                    <div class="start-2 text-end">
+                        <img src="/img/nepal-01-1.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="label point" style="top: 32%; left: 44%;">Nepal</div>
+            <div class="label" style="top: 20%; left: 75%;">China</div>
+            <div class="label" style="top: 75%; left: 25%;">India</div>
+            <div class="label bg-success" style="top: 29%; left: 9%;">Nabin Mobile Gallery Doti</div>
+            <div class="label" style="top: 65%; left: 45%;">Finance</div>
+            <!-- SVG Paths -->
+            <svg viewBox="0 0 1077 436" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M494 129.5C573.5 -27.5014 937.5 143.5 1000 394.498" stroke="#069845" />
+                <path d="M494.5 128.501C573 -38.9998 990.5 74.5002 1076 435" stroke="#E0009B" />
+                <path d="M494.5 128.506C570.5 -64.499 938.5 -4.50002 1048.5 90.5006" stroke="#F0A230" />
+                <path d="M494 129.5C440 4.9998 258.5 71.9994 178 215.998" stroke="#E0009B" />
+                <path d="M494 128.496C472 120 441 179 470 269.999" stroke="#3C72FC" />
+                <path d="M494 129.315C520.5 83.5004 600.5 129.315 622 189.501" stroke="#069845" />
+                <path d="M494 129.316C546.5 106.999 602 314.499 606 390" stroke="#8F54FF" />
+                <path d="M493.5 129.5C434 -15.3582 297 221 258.5 342.5" stroke="#F0A230" />
+                <path d="M494 129.501C469 -79.4987 96.5 11.0001 1 116" stroke="#8F54FF" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Country network end -->
+
+    <!-- Brand section start -->
+    <section class="brand-main py-4">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fw-bold fs-1">Brand We Work With</h2>
+                <p>At Nabin Mobile Gallery, we proudly collaborate with some of the most trusted and recognized mobile
+                    and tech brands in the industry. From leading smartphone manufacturers like Samsung, Apple, Xiaomi,
+                    Vivo, Oppo, and Realme to accessory brands like Boat, JBL.</p>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center align-items-center g-5 row-info">
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/OPPO_LOGO_2019.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/IQOO_logo.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/Vivo_logo_2019.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3 text-center">
+                                <img src="/img/Samsung_Logo.svg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center g-5 row-info-2">
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/Motorola_new_logo.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/IQOO_logo.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/Itel-mobile-logo-vector.svg" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <img src="/img/Realme_logo.svg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand section end -->
+
+    <!-- Reapir gallery section start -->
+    <section class="gallery-main py-4">
+        <div class="container">
+            <div class="text-center mb-2">
+                <h2 class="fs-1 fw-bold">Our Repair Gallery</h2>
+                <p class="text-secondary">See our work in action! From screen replacements to full repairs, our gallery
+                    shows the care and quality we bring to every mobile fix.</p>
+            </div>
+            <div class="row justify-content-between align-items-center g-5">
+                <div class="col-12 col-md-4 overlay-info">
+                    <div class="overlay-img">
+                        <img src="/img/gallery_1.webp" class="images img-fluid">
+                        <div class="text-info">
+                            <h5>Computer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 overlay-info">
+                    <div class="overlay-img">
+                        <img src="/img/gallery_2.webp" class="images img-fluid">
+                        <div class="text-info">
+                            <h5>MacBook</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 overlay-info">
+                    <div class="overlay-img">
+                        <img src="/img/gallery_3.webp" class="imagess">
+                        <div class="text-info">
+                            <h5>Keywords</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-row mt-3">
+                <div class="row justify-content-between align-items-center g-5">
+                    <div class="col-12 col-md-4 overlay-info">
+                        <div class="overlay-img">
+                            <img src="/img/gallery_4.webp" class="images-1 img-fluid">
+                            <div class="text-info">
+                                <h5>Voltage Check</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 overlay-info">
+                        <div class="overlay-img">
+                            <img src="/img/gallery_5.webp" class="images img-fluid">
+                            <div class="text-info">
+                                <h5>Chipsets</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 overlay-info">
+                        <div class="overlay-img">
+                            <img src="/img/gallery_1.webp" class="images img-fluid">
+                            <div class="text-info">
+                                <h5>Computer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Reapir gallery section end -->
+
+    <!-- Guide section start -->
+    <section class="guide-main py-4">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fs-1 fw-bold">Free Repair Guide</h2>
+                <p class="text-secondary">At Nabin Mobile Gallery, we believe that the best service starts with honest
+                    guidance.<br>Whether you're confused about which smartphone to buy, need advice on accessories, or
+                    want
+                    to understand repair options,<br>our team is always ready to assist.Our goal is to help you make
+                    informed decisions with confidence. Because here, we're always free to guide.</p>
+            </div>
+            <div class="row justify-content-center align-items-center g-5 mt-1">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="/img/pc_01.webp" class="card-img-top" alt="pc-1">
+                        <div class="card-body">
+                            <h5 class="card-titles">20 AUG 2024</h5>
+                            <p>Free Smartphone Repair Guide helps you troubleshoot and repair common phone issues like
+                                screen cracks, battery problems, charging issues, and more.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="/img/pc_02.webp" class="card-img-top" alt="pc-2">
+                        <div class="card-body">
+                            <h5 class="card-titles">25 JUN 2025</h5>
+                            <p>Free All-in-One Repair Guide covers essential troubleshooting and DIY repairs for both
+                                mobile phones and laptops. Perfect for tech users, beginners, and mobile shop customers.
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="/img/pc_03.webp" class="card-img-top" alt="pc-2">
+                        <div class="card-body">
+                            <h5 class="card-titles">20 MAY 2025</h5>
+                            <p>A close-up view of multiple circuit featuring USB, HDMI ports. This image symbolizes the
+                                internal aspect of electronics, making it ideal for explaining motherboard.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guide section end -->
+
+    <!-- Footer Section start -->
+    <section class="footer-main py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <img src="/img/logoo.png" width="150px" height="150px" alt="logo">
+                    <p>At Nabin Mobile Gallery. We specialize in providing top-notch mobile sales repair services, and
+                        accessories all under one roof.</p>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Shop Info</h4>
+                    <ul>
+                        <li>Adress: Dipayal Pipalla Bazzar <br>Doti</li>
+                        <hr>
+                        <li>Phone: +9779848431087</li>
+                        <li>Email: <span class="text-warning">mobilenabin123@gmail.com</span></li>
+                        <hr>
+                        <li>Hours: Sun - Fri (8AM - 8PM)</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Services</h4>
+                    <div class="footer-servic d-flex align-items-center">
+                        <ul>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Laptop Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Iphone Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Ipad Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Tablet Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Smartphone Repair
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Device Unlocking
+                            </div>
+                            <div class="footer-service-content">
+                                <i class="fa-solid fa-circle-check text-primary me-2"></i> Recovery Data
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-white shop-infoo">
+                    <h4>Newsletter</h4>
+                    <p>Signup for regular newsletter and stay upto date with our latest news</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter Your Email...." aria-describedby="emailHelp">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fa fa-chevron-right"></i>
+                            </button>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section end -->
+
+    <!-- Button section start -->
+    <section class="button-main py-4">
+        <div class="container">
+            <div class="text-center text-white mb-2">
+                <p>Copyright © 2023. All right reserved by <span class="text-warning">Dhirendra</span> Bam</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button section end -->
+
+    <!-- Chatbot section start-->
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container">
+        <div class="chat-window">
+            <div class="chat-header">
+                <h3>Mobile Repair Assistant</h3>
+                <button class="close-chat"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-messages">
+                <div class="message bot-message">
+                    Hi there! 👋 I'm Dhirendra Software Engineer, your mobile repair assistant. How can I help you
+                    today?
+                </div>
+                <div class="suggested-questions">
+                    <button class="suggested-btn">What are your repair services?</button>
+                    <button class="suggested-btn">How much for screen replacement?</button>
+                    <button class="suggested-btn">Can I book a repair appointment?</button>
+                    <button class="suggested-btn">Do you offer warranty on repairs?</button>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message here..." id="chat-input">
+                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <div class="chatbot-toggle">
+            <i class="fas fa-comments"></i>
+            <div class="notification-badge">1</div>
+        </div>
+    </div>
+
+    <!-- Chatbot section end -->
+
+    <!-- Booking Modal -->
+
+    <div class="modal fade" id="OrderInfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Booking Your Services Plan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/bookingForm" method="post">
+                        <div class="mb-2">
+                            <label for="recipient-name" class="col-form-label">Full Name:</label>
+                            <input type="text" class="form-control" name="fullname" id="recipient-name">
+                        </div>
+                        <div class="mb-2">
+                            <label for="message-text" class="col-form-label">Email Address:</label>
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="mb-2">
+                            <label for=number" class="col-form-label">Phone Number:</label>
+                            <input type="tel" class="form-control" name="phonenumber" id="phonenumber">
+                        </div>
+                        <div class="mb-2">
+                            <label for="device" class="form-label">Device Type</label>
+                            <select class="form-select" id="device" name="deviceType" required>
+                                <option value="">Select Device</option>
+                                <option value="mobile">Mobile</option>
+                                <option value="laptop">Laptop</option>
+                                <option value="tablet">Tablet</option>
+                            </select>
+                        </div>
+                        <div class="mb-2">
+                            <label for="plan" class="form-label">Service Plan</label>
+                            <select class="form-select" id="plan" name="plan" required>
+                                <option value="">Choose Plan</option>
+                                <option value="basic">Basic</option>
+                                <option value="standard">Standard</option>
+                                <option value="premium">Premium</option>
+                            </select>
+                        </div>
+                        <div class="mb-2">
+                            <label for="issue" class="form-label">Issue Description</label>
+                            <textarea class="form-control" id="issue" name="issue" rows="3"
+                                placeholder="Describe the problem..."></textarea>
+                        </div>
+                        <div class="mb-2">
+                            <label for="bookingDate" class="form-label">Preferred Date & Time</label>
+                            <input type="datetime-local" class="form-control" id="bookingDate" name="bookingDate"
+                                required>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit Booking</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking modal end -->
+
+
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
+        integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
