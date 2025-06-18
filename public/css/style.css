@@ -1439,3 +1439,34 @@ form {
 .toggle-panel.toggle-right {
   right: -50%;
 }
+
+/* Dashboard Section */
+.dashboard-left {
+    background: #002744;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+}
+.dashboard-left h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.dashboard-left a {
+      color: white;
+      padding: 15px;
+      display: block;
+      text-decoration: none;
+      line-height: 32px;
+      transition: 0.5s ease;
+    }
+    .dashboard-left a:hover {
+        background-color: #005999;
+    }
+    .dashboard-info {
+        margin-left: 20%;
+    }
+    .dash-text h2 {
+        margin-top: 15px;
+    }

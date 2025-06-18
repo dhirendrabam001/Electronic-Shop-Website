@@ -96,6 +96,11 @@ app.get("/verify", (req, res) => {
         res.render("verify", { email});  
 });
 
+// Dashboard Section
+app.get("/dashboard", (req,res) => {
+    res.render("dashboard")
+});
+
 // SupportTeam section
 app.post("/supportteam", async (req, res) => {
 
@@ -249,7 +254,7 @@ app.post("/login", async (req, res) => {
     const match = await bcrypt.compare(password, user.password);
     if (!match) return res.send("Incorrect password");
 
-    res.redirect("/index");
+    res.redirect("/dashboard");
 });
 
 
