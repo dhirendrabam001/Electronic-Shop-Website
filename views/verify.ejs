@@ -1,120 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>Email Verification</title>
   <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      color: white;
-      background: linear-gradient(145deg, #1a1a2e, #16213e);
-
-    }
-      
-    .verification-box {
-      max-width: 420px;
-      margin: 8% auto;
-      background-color: #1e1e2f;
-      border-radius: 15px;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0, 123, 255, 0.15);
-    }
-
-    h4 {
-      font-weight: 600;
-    }
-
-    .otp-input {
-      width: 45px;
-      height: 50px;
-      font-size: 20px;
-      text-align: center;
-      background-color: #2d2d3a;
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      margin: 0 5px;
-    }
-
-    .otp-input:focus {
-      outline: none;
-      box-shadow: 0 0 5px #0d6efd;
-    }
-
-    .email-box {
-      background-color: #003b5b;
-      padding: 12px 20px;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      margin-top: 20px;
-      font-size: 15px;
-      font-weight: 500;
-    }
-
-    .btn-submit {
-        width: 100%;
-        margin-top: 25px;
-        font-weight: 500;
-        padding: 12px;
-        border-radius: 8px;
-        background-color: #0d6efd;
-        color: white;
-        border: none;
-        transition: all 0.4s ease-in-out;
-        position: relative;
-        overflow: hidden;
-        z-index: 1;
-      }
-  
-      .btn-submit::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background-color: #003b5b;
-        z-index: -1;
-        transition: all 0.4s ease-in-out;
-      }
-  
-      .btn-submit:hover::before {
-        left: 0;
-      }
-  
-      .btn-submit:hover {
-        color: #fff;
-        transform: scale(1.03);
-        box-shadow: 0 5px 15px rgba(0, 91, 187, 0.3);
-      }
-
-    .resend,
-    .back-panne {
-      font-size: 14px;
-      margin-top: 15px;
-    }
-
-    .resend a,
-    .back-panne a {
-      color: #0d6efd;
-      text-decoration: none;
-    }
-
-    .resend a:hover,
-    .back-panne a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/modal.css">
 </head>
-
 <body>
-  <section class="main">
+  <section class="main-verification">
   <div class="container">
     <div class="verification-box text-center">
       <h4>Email Verification</h4>
@@ -172,6 +70,12 @@
       hiddenInput.value = code;
     }
   </script>
+
+  <script src="/js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
+        integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
