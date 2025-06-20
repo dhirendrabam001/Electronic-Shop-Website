@@ -270,12 +270,15 @@
   .chat-window {
     height: 400px;
   }
-
   .main-verification {
     width: 100%;
+    height: 100vh;
   }
   .verification-box {
-    width: 100%;;
+    margin-left: 2px;
+    width: 100%;
+    margin-top: 30%;
+
   }
 
 }
