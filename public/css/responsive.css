@@ -280,5 +280,24 @@
     margin-top: 30%;
 
   }
+  .dashboard-left {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+    .dashboard-info {
+        margin-left: 0;
+        padding: 10px;
+    }
+    .card h4 {
+        font-size: 16px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    .dashboard-info .card {
+      width: 250px;
+      height: 200px;
+    }
 
 }

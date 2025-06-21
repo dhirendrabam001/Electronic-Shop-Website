@@ -1,86 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Section</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/modal.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Section</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/modal.css">
 </head>
-
 <body>
-    <section class="dashboard-main">
-        <div class="row">
-            <div class="col-12 col-md-3">
-                <div class="dashboard-left">
-                    <h2 class="text-white fw-bold">📱 Welcome Nabin Mobile Gallery</h2>
-                    <a href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
-                    <a href="#"><i class="fa fa-shopping-cart"></i> Orders</a>
-                    <a href="#"><i class="fa fa-users"></i> Customers</a>
-                    <a href="#"><i class="fa fa-wrench"></i> Repairs</a>
-                    <a href="#"><i class="fa fa-comments"></i> Chatbot Queries</a>
-                    <a href="#"><i class="fa fa-cogs"></i> Settings</a>
-                    <a href="/logout"><i class="fa fa-sign-out-alt"></i> Logout</a>
-                </div>
-            </div>
-            <div class="row dashboard-info gap-5">
-                    <div class="mb-2 dash-text">
-                        <h2 class="">Dashboard Overview</h2>
-                    </div>
-                    <div class="col-12 col-md-2 text-center">
-                        <div class="card shadow">
-                            <div class="card-body">
-                                <h4>Total Orders</h4>
-                                <p>120</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-2 text-center">
-                        <div class="card shadow">
-                            <div class="card-body">
-                                <h4>Repair Services</h4>
-                                <p>50</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-2 text-center">
-                        <div class="card shadow">
-                            <div class="card-body">
-                                <h4>Customers</h4>
-                                <p>100</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-2 text-center">
-                        <div class="card shadow">
-                            <div class="card-body">
-                                <h4>Unread Queries</h4>
-                                <p>20</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
 
-            </div>
+<!-- Sidebar Toggle Button for Mobile -->
+<div class="d-md-none p-2 bg-dark text-white text-center">
+  <button class="btn btn-light" onclick="toggleSidebar()">☰ Menu</button>
+</div>
+
+<section class="dashboard-main d-flex">
+  <!-- Sidebar -->
+  <div class="dashboard-left d-none d-md-block" id="sidebar">
+    <h2 class="text-white fw-bold">📱 Nabin Mobile Gallery</h2>
+    <a href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
+    <a href="#"><i class="fa fa-shopping-cart"></i> Orders</a>
+    <a href="#"><i class="fa fa-users"></i> Customers</a>
+    <a href="#"><i class="fa fa-wrench"></i> Repairs</a>
+    <a href="#"><i class="fa fa-comments"></i> Chatbot Queries</a>
+    <a href="#"><i class="fa fa-cogs"></i> Settings</a>
+    <a href="/logout"><i class="fa fa-sign-out-alt"></i> Logout</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container-fluid dashboard-info">
+    <div class="row gap-3 px-3">
+      <div class="col-12 dash-text">
+        <h2>Dashboard Overview</h2>
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 text-center">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4>Total Orders</h4>
+            <p>120</p>
+          </div>
         </div>
-    </section>
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 text-center">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4>Repair Services</h4>
+            <p>50</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 text-center">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4>Customers</h4>
+            <p>100</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 text-center">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4>Unread Queries</h4>
+            <p>20</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<script>
+  // Toggle sidebar for mobile
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('d-none');
+  }
+</script>
 
-
-
-
-    <script src="/js/bootstrap.bundle.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
-        integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/js/script.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+<script src="/js/script.js"></script>
 </body>
-
 </html>

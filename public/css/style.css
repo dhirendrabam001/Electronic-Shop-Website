@@ -1443,32 +1443,37 @@ form {
 .dashboard-left {
     background: #002744;
     height: 100vh;
-    position: fixed;
     width: 250px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
 }
 .dashboard-left h2 {
     font-size: 22px;
-    margin-top: 10px;
-    padding: 10px;
-    
+    margin-bottom: 20px;
 }
 .dashboard-left a {
-      color: white;
-      padding: 15px;
-      display: block;
-      text-decoration: none;
-      line-height: 32px;
-      transition: 0.5s ease;
-    }
-    .dashboard-left a:hover {
-        background-color: #005999;
-    }
-    .dashboard-info {
-        margin-left: 20%;
-    }
-    .dash-text h2 {
-        margin-top: 15px;
-    }
+    color: white;
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: 0.3s ease;
+}
+.dashboard-left a:hover {
+    background-color: #005999;
+}
+.dashboard-info {
+    padding: 20px;
+    margin-left: 0;
+    flex: 1;
+}
+.dash-text h2 {
+    margin-bottom: 20px;
+}
+
 
     /* Main verification */
     .main-verification {
